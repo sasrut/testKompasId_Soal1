@@ -1,0 +1,23 @@
+{
+  "name": "app1",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "prettify": "prettier --write src/"
+  },
+  "dependencies": {
+    "@syncfusion/ej2-vue-lists": "^18.4.39",
+    "axios": "^0.21.1",
+    "lodash": "^4.17.21",
+    "vue": "^3.0.5",
+    "vue-axios": "^3.2.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.1.5",
+    "@vue/compiler-sfc": "^3.0.5",
+    "prettier": "^2.2.1",
+    "vite": "^2.1.0"
+  }
+}
